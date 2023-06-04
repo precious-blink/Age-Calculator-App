@@ -1,0 +1,40 @@
+@media (max-width: 500px) {
+    .mainCon{
+        width: 300px;
+        padding-left: 20px;
+        height: 400px;
+    }
+    input{
+        width: 70px;
+    }
+    .Con{
+        gap: 4%;
+    }
+    .border{
+        width: 35%;
+    }
+    .border2{
+        width: 35%;
+        display: flex;
+        border-bottom: 1px ridge lightgrey;
+        color: white;
+    }
+    .submit{
+        margin-top: 10%;
+    }
+    .btnCon{
+        margin-bottom: -10%;
+    }
+    .p{
+        font-family: 20px;
+        margin-top: 10px;
+    }
+    .ageDiv{
+        margin-top: 12%;
+    }
+    .wish{
+    font-size: 25px;
+    margin-top: 10px;
+
+   }
+}

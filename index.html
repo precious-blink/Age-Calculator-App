@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>age-calculator-app</title>
+</head>
+<body>
+
+    <div class="mainCon">
+        <span id="error"></span>
+        <div class="Con">
+            <div>
+                <label for="Day">Day</label><br>
+                <input type="text" id="date" placeholder="DD">
+                <div id="errordate"></div>
+            </div>
+            <div>
+                
+                <label for="Month">Month</label><br>
+                <input type="text"  id="month" placeholder="MM">
+                <div id="errormonth"></div>
+            </div>
+            <div>
+                <label for="Year">Year</label><br>
+                <input type="text" id="year" placeholder="YYYY">
+                <div id="erroryear"></div>
+            </div>
+            
+        </div>
+        
+        <div class="submit">
+            <div class="border">1</div>
+            <div class="btnCon">
+                <button class="btn" onclick="submit()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+                </button>
+                
+            </div>
+            <div class="border2">1</div>
+        </div>
+
+        <div id="showAge"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+<!-- <select name="" aria-valuetext="" id="">
+    <option value="1"></option>
+    <option value="2"></option>
+    <option value="3"></option>
+    <option value="4"></option>
+    <option value="5"></option>
+    <option value="6"></option>
+    <option value="7"></option>
+
+</select> -->
